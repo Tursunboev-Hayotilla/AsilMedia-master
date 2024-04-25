@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DB848370-1487-4C86-9E51-EE7E5FDA3CF2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{B28B9845-B9CA-4976-B4FD-764DFBF0BD07}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "External", "External", "{B900129E-5840-4952-9F9F-D550EEB2D1D2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsilMedia.Domain", "src\Core\AsilMedia.Domain\AsilMedia.Domain.csproj", "{1B459133-054E-4B3D-BD2A-BEA4C3A79F54}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsilMedia.Application", "src\Core\AsilMedia.Application\AsilMedia.Application.csproj", "{C35B919A-6969-4E7A-ACDD-A238F42F66D2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsilMedia.Infrastructure", "src\External\AsilMedia.Infrastructure\AsilMedia.Infrastructure.csproj", "{EA7E55BD-D152-4986-AA8C-60C77A8BE9B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsilMedia.API", "src\External\AsilMedia.API\AsilMedia.API.csproj", "{EBCA57C1-E6E1-45E5-B96E-5065F47AF6DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B459133-054E-4B3D-BD2A-BEA4C3A79F54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B459133-054E-4B3D-BD2A-BEA4C3A79F54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B459133-054E-4B3D-BD2A-BEA4C3A79F54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B459133-054E-4B3D-BD2A-BEA4C3A79F54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C35B919A-6969-4E7A-ACDD-A238F42F66D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C35B919A-6969-4E7A-ACDD-A238F42F66D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C35B919A-6969-4E7A-ACDD-A238F42F66D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C35B919A-6969-4E7A-ACDD-A238F42F66D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA7E55BD-D152-4986-AA8C-60C77A8BE9B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA7E55BD-D152-4986-AA8C-60C77A8BE9B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA7E55BD-D152-4986-AA8C-60C77A8BE9B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA7E55BD-D152-4986-AA8C-60C77A8BE9B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBCA57C1-E6E1-45E5-B96E-5065F47AF6DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBCA57C1-E6E1-45E5-B96E-5065F47AF6DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBCA57C1-E6E1-45E5-B96E-5065F47AF6DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBCA57C1-E6E1-45E5-B96E-5065F47AF6DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B28B9845-B9CA-4976-B4FD-764DFBF0BD07} = {DB848370-1487-4C86-9E51-EE7E5FDA3CF2}
+		{B900129E-5840-4952-9F9F-D550EEB2D1D2} = {DB848370-1487-4C86-9E51-EE7E5FDA3CF2}
+		{1B459133-054E-4B3D-BD2A-BEA4C3A79F54} = {B28B9845-B9CA-4976-B4FD-764DFBF0BD07}
+		{C35B919A-6969-4E7A-ACDD-A238F42F66D2} = {B28B9845-B9CA-4976-B4FD-764DFBF0BD07}
+		{EA7E55BD-D152-4986-AA8C-60C77A8BE9B4} = {B900129E-5840-4952-9F9F-D550EEB2D1D2}
+		{EBCA57C1-E6E1-45E5-B96E-5065F47AF6DF} = {B900129E-5840-4952-9F9F-D550EEB2D1D2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {84796E22-91AC-4BDF-B309-4424F34A5DF0}
+	EndGlobalSection
+EndGlobal
