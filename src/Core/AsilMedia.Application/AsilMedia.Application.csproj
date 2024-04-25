@@ -16,5 +16,5 @@
   <ItemGroup>
     <ProjectReference Include="..\AsilMedia.Domain\AsilMedia.Domain.csproj" />
   </ItemGroup>
-
+  
 </Project>
